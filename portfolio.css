@@ -1,4 +1,51 @@
-p {
-    font-size: 4rem;
-    color:red;
+* {
+  border: 1px red solid;
+}
+
+/*h1 {
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }*/
+
+
+
+#navbar {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+a {
+  color: white;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  font-size: .9rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.bg-img {
+  background-image: url("images/Header.jpg");
+  min-height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
 }
